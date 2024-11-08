@@ -19,3 +19,5 @@ if (xp <= 1001){
 } else {
   console.log(" O Herói " + heroi + " tem " + xp + "xp e é nível Radiante!");
 }
+
+console.log("Continue Evoluindo!!" + heroi +)
