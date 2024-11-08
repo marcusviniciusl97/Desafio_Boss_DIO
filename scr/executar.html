@@ -8,23 +8,24 @@
     <script>
         let heroi = prompt("Digite seu nick Herói");
         let xp = parseInt(prompt("Digite seu Nível de XP")); 
+        let mensagem
 
-        if (xp <= 1001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Ferro");
-        } else if (xp <= 2001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Bronze");
-        } else if (xp <= 3001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Prata");
-        } else if (xp <= 4001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Ouro");
-        } else if (xp <= 5001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Platina");
-        } else if (xp <= 6001){
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Ascentente");
-        } else if (xp <= 7001){ 
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Imortal");
+        if (xp <= 1001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Ferro";
+        } else if (xp <= 2001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Bronze";
+        } else if (xp <= 3001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Prata";
+        } else if (xp <= 4001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Ouro";
+        } else if (xp <= 5001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Platina";
+        } else if (xp <= 6001) {
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Ascendente";
+        } else if (xp <= 7001) { 
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Imortal";
         } else {
-        document.write(mensagem + "<br>O Herói, " + heroi + " tem " + xp + "xp e é ELO Radiante");
+            mensagem = "O Herói, " + heroi + " tem " + xp + "xp e é ELO Radiante";
         }
 
         document.write(mensagem + "<br>Continue Evoluindo, " + heroi + "!");
